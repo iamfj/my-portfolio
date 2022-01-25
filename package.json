@@ -2,9 +2,16 @@
   "name": "my-portfolio",
   "version": "1.0.0",
   "description": "This is just my personal portfolio",
-  "main": "src/index.ts",
+  "main": "src/index.js",
   "repository": "https://github.com/iamfj/my-portfolio",
   "author": "Fabian Jocks <dev@jocks.io>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "engines": {
+    "node": ">=14"
+  },
+  "devDependencies": {
+    "serverless": "^2.72.2",
+    "serverless-google-cloudfunctions": "^4.5.0"
+  }
 }
