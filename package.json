@@ -1,0 +1,10 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "This is just my personal portfolio",
+  "main": "src/index.ts",
+  "repository": "https://github.com/iamfj/my-portfolio",
+  "author": "Fabian Jocks <dev@jocks.io>",
+  "license": "MIT",
+  "private": false
+}
