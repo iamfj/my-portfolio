@@ -9,9 +9,5 @@
   "private": false,
   "engines": {
     "node": ">=14"
-  },
-  "devDependencies": {
-    "serverless": "^2.72.2",
-    "serverless-google-cloudfunctions": "^4.5.0"
   }
 }
