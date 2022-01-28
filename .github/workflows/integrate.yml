@@ -36,6 +36,6 @@ jobs:
           name: build
           path: .next/*
       - name: Build Docker Image
-        run: docker build -t ghcr.io/iamfj/my-portfolio:${GITHUB_HEAD_REF} .
+        run: docker build -t "ghcr.io/iamfj/my-portfolio:${GITHUB_HEAD_REF}" .
       - name: Publish Docker Image
         run: docker push ghcr.io/iamfj/my-portfolio
