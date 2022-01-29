@@ -22,7 +22,7 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: build
-          path: .next/*
+          path: .next/
 
   publish:
     name: Publish Docker Image
@@ -34,7 +34,7 @@ jobs:
       - uses: actions/download-artifact@master
         with:
           name: build
-          path: .next/*
+          path: .next/
       - name: Build Docker Image
         run: docker build -t ghcr.io/${{ github.actor }}/${{ github.event.repository.name }}:${GITHUB_REF##*/} .
       - name: Login to GitHub Container Registry (ghcr.io)
